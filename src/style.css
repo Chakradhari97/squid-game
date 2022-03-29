@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+@font-face {
+    font-family: Gameplay;
+    src: url(../static/font/Gameplay.ttf);
+}
+.text{
+    position: fixed;
+    font-size: 40px;
+    font-family: Gameplay;
+    /*font-weight: bold;*/
+    top: 10%;
+    left: 50%;
+    /*text-shadow: 0 2px 5px rgba(0, 0, 0, .3);*/
+    transform: translateX(-50%)
+}
