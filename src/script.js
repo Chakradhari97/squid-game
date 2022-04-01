@@ -192,7 +192,7 @@ class Player {
             this.player = car
             this.playerInfo = {
                 movement : start_position - 0.5,
-                velocity : 0
+                velocity : 0 
             }
         }
 }
